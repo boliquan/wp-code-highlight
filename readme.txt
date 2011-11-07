@@ -97,6 +97,8 @@ Please visit http://boliquan.com/wp-code-highlight/
 
 == Frequently Asked Questions ==
 
+No questions now.
+
 If you have any question, you can sumbit it in http://boliquan.com/wp-code-highlight/
 
 
