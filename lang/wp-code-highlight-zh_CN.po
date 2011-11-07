@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Code-Highlight Languages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-03 21:14+0800\n"
+"PO-Revision-Date: 2011-10-03 21:14+0800\n"
+"Last-Translator: 夜光 <berttung(#)gmail.com>\n"
+"Language-Team: 玻璃泉BoLiQuan.COM <berttung(#)gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wp3\\wp-content\\plugins\\wp-code-highlight\n"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:22
+msgid "Code Button"
+msgstr "代码按钮"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:27
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:69
+msgid "enable"
+msgstr "开启"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:31
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:73
+msgid "disable"
+msgstr "关闭"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:37
+msgid "Highlight Themes"
+msgstr "高亮主题"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:64
+msgid "Line Numbers"
+msgstr "代码行号"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:80
+msgid "Delete Options"
+msgstr "删除设置"
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:85
+msgid "Delete options while deactivate this plugin."
+msgstr "卸载此插件时自动删除设置选项."
+
+#: D:\xampp\htdocs\wp3\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:95
+msgid "Save Changes"
+msgstr "保存更改"
+
