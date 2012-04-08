@@ -1,10 +1,10 @@
 === WP Code Highlight ===
 Contributors: boliquan
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SKA6TPPWSATKG&item_name=BoLiQuan&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=CA&bn=PP%2dDonationsBF&charset=UTF%2d8
-Tags: wp code highlight,wordpress code highlight,code highlight,syntaxhighlighter evolved,syntaxhighlighter,sourcecode,wp prettify,wp code prettify,prettify,prettify button,syntax highlighting,syntax,javascript,wp syntax,highlight,highlight themes,highlighter,code,formatting,developer formatter,google code prettify,code button,button,wp syntax button,addquicktag,add quicktag,quicktag,editor,html,xhtml,css,themes,syntax highlighter,google syntax highlighter,code highlighter,fv code highlighter,wp synhighlight,code snippet,code markup,wp chili,wp codebox,codebox,code box,codecolorer,code colorer,cool code,source,highlight source pro,articles,post,comment,wp advanced code editor,sniplets
+Tags: wp code highlight,wordpress code highlight,code highlight,sourcecode,wp prettify,wp code prettify,prettify,prettify button,syntax highlighting,syntax,javascript,wp syntax,highlight,highlight themes,code,formatting,google code prettify,code button,quicktag,editor,html,xhtml,css,syntax highlighter,google syntax highlighter,code highlighter,code snippet,code box,cool code,codecolorer,source,articles,post,comment,sniplets
 Requires at least: 2.7
-Tested up to: 3.2.1
-Stable tag: 1.2.3
+Tested up to: 3.3.1
+Stable tag: 1.2.4
 
 WP Code Highlight provides clean syntax highlighting and it also provides a code button.
 
@@ -21,8 +21,11 @@ It can delete its own options, so it is also a green plugin !
 
 = Basic Usage =
 
-Wrap code blocks with `<pre>` and `</pre>` 
-You can use the code button(HTML editor) to insert code in articles easily.
+1. Download and extract `wp-code-highlight.zip` to `wp-content/plugins/`
+2. Activate the plugin through the "Plugins" menu in WordPress
+3. "Users"->"Your Profile"->"Disable the visual editor when writing"
+4. "Settings"->"WP Code Highlight"
+5. Wrap code blocks with `<pre>` and `</pre>` (It provides a code button in the HTML editor)
 
 = More Information =
 
@@ -42,11 +45,17 @@ Related Links:
 == Installation ==
 
 1. Download and extract `wp-code-highlight.zip` to `wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Wrap code blocks with `<pre>` and `</pre>`
+2. Activate the plugin through the "Plugins" menu in WordPress
+3. "Users"->"Your Profile"->"Disable the visual editor when writing"
+4. "Settings"->"WP Code Highlight"
+5. Wrap code blocks with `<pre>` and `</pre>` (It provides a code button in the HTML editor)
 
 
 == Changelog ==
+
+= 1.2.4 =
+
+* Detailed usage
 
 = 1.2.3 =
 

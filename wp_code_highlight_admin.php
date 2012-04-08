@@ -6,7 +6,6 @@ function wp_code_highlight_options(){
 	add_option('wp_code_highlight_button','enable');
     add_option('wp_code_highlight_themes','wp-code-highlight');
 	add_option('wp_code_highlight_line_numbers','disable');
-	add_option('wp_code_highlight_deactivate','yes');
 ?>
 <div class="wrap">
 	
@@ -98,7 +97,10 @@ function wp_code_highlight_options(){
 </form>
 
 <h3>Basic Usage</h3>
-Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> for more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
+1. "Users"->"Your Profile"->"Disable the visual editor when writing"<br />
+2. "Settings"->"WP Code Highlight"<br />
+3. Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> (It provides a code button in the HTML editor)<br />
+4. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
 
 <h3>Example</h3>
 <code>&lt;pre&gt;</code><br />
@@ -107,14 +109,23 @@ Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> for
 &nbsp;?&gt;<br />
 <code>&lt;/pre&gt;</code>
 
+<h3>Other Plugins</h3>
+1. <a href="http://boliquan.com/wp-anti-spam/" target="_blank">WP Anti Spam</a> | <a href="http://wordpress.org/extend/plugins/wp-anti-spam/" target="_blank">Download</a><br />
+2. <a href="http://boliquan.com/yg-share/" target="_blank">YG Share</a> | <a href="http://wordpress.org/extend/plugins/yg-share/" target="_blank">Download</a>
+
 <br /><br />
-<?php $paypal_url = plugins_url('/img/paypal_32_32.jpg', __FILE__);?>
-<?php $blq_donate_url = plugins_url('/img/btn_donateCC_LG.gif', __FILE__);?>
-<div class="icon32"><img src="<?php echo $paypal_url; ?>" alt="Paypal" /></div>
+<?php $donate_url = plugins_url('/img/paypal_32_32.jpg', __FILE__);?>
+<?php $paypal_donate_url = plugins_url('/img/btn_donateCC_LG.gif', __FILE__);?>
+<?php $ali_donate_url = plugins_url('/img/btn-index.png', __FILE__);?>
+<div class="icon32"><img src="<?php echo $donate_url; ?>" alt="Donate" /></div>
 <h2>Donate</h2>
-If you find my work useful and you want to encourage the development of more free resources, you can do it by donating.
 <p>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SKA6TPPWSATKG&item_name=BoLiQuan&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=CA&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank"><img src="<?php echo $blq_donate_url; ?>" alt="Donate" /></a>
+If you find my work useful and you want to encourage the development of more free resources, you can do it by donating.
+</p>
+<p>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SKA6TPPWSATKG&item_name=BoLiQuan&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=CA&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank"><img src="<?php echo $paypal_donate_url; ?>" alt="Paypal Donate" title="Paypal" /></a>
+&nbsp;
+<a href="https://me.alipay.com/boliquan" target="_blank"><img src="<?php echo $ali_donate_url; ?>" alt="Alipay Donate" title="Alipay" /></a>
 </p>
 <br />
 
