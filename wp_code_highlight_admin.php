@@ -1,4 +1,25 @@
 <?php
+
+function endswith($string, $test) {
+    $strlen = strlen($string);
+    $testlen = strlen($test);
+    if ($testlen > $strlen) return false;
+    return substr_compare($string, $test, -$testlen) === 0;
+}
+
+
+function list_themes() {
+    $files = scandir(dirname(__FILE__) . "/css/");
+    $results = Array();
+    foreach($files as $file){
+        if(endswith($file, ".css")){
+            $results[] = basename($file, ".css");
+        }
+    }
+
+    return $results;
+}
+
 function wp_code_highlight_admin() {
     add_options_page('WP Code Highlight Options', 'WP Code Highlight','manage_options', __FILE__, 'wp_code_highlight_options');
 }
@@ -36,22 +57,12 @@ function wp_code_highlight_options(){
             <?php _e('Highlight Themes','WP-Code-Highlight'); ?>
         </th>
         <td>
-            <label>
-                <input name="wp_code_highlight_themes" type="radio" value="wp-code-highlight"<?php if (get_option('wp_code_highlight_themes') == 'wp-code-highlight') { ?> checked="checked"<?php } ?> />
-                wp-code-highlight
-            </label>
-            <label>
-                <input name="wp_code_highlight_themes" type="radio" value="desert"<?php if (get_option('wp_code_highlight_themes') == 'desert') { ?> checked="checked"<?php } ?> />
-                desert
-            </label>
-            <label>
-                <input name="wp_code_highlight_themes" type="radio" value="sunburst"<?php if (get_option('wp_code_highlight_themes') == 'sunburst') { ?> checked="checked"<?php } ?> />
-                sunburst
-            </label>
-            <label>
-                <input name="wp_code_highlight_themes" type="radio" value="sons-of-obsidian"<?php if (get_option('wp_code_highlight_themes') == 'sons-of-obsidian') { ?> checked="checked"<?php } ?> />
-                sons-of-obsidian
-            </label>
+<?php foreach(list_themes() as $theme) { ?>
+      <label>
+        <input name="wp_code_highlight_themes" type="radio" value="<? echo $theme ?>"<?php if (get_option('wp_code_highlight_themes') == $theme) { ?> checked="checked"<?php } ?> />
+        <? echo $theme ?>
+      </label><br/>
+<? } ?>
             <label>
                 <input name="wp_code_highlight_themes" type="radio" value="random"<?php if (get_option('wp_code_highlight_themes') == 'random') { ?> checked="checked"<?php } ?> />
                 random
