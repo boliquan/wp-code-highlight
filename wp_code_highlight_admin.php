@@ -1,14 +1,14 @@
 <?php
 function wp_code_highlight_admin() {
-	add_options_page('WP Code Highlight Options', 'WP Code Highlight','manage_options', __FILE__, 'wp_code_highlight_options');
+    add_options_page('WP Code Highlight Options', 'WP Code Highlight','manage_options', __FILE__, 'wp_code_highlight_options');
 }
 function wp_code_highlight_options(){
-	add_option('wp_code_highlight_button','enable');
+    add_option('wp_code_highlight_button','enable');
     add_option('wp_code_highlight_themes','wp-code-highlight');
-	add_option('wp_code_highlight_line_numbers','disable');
+    add_option('wp_code_highlight_line_numbers','disable');
 ?>
 <div class="wrap">
-	
+
 <?php screen_icon(); ?>
 <h2>WP Code Highlight</h2>
 
@@ -16,75 +16,75 @@ function wp_code_highlight_options(){
 <?php wp_nonce_field('update-options'); ?>
 
 <table class="form-table">
-	<tr valign="top">
-		<th scope="row">
-			<?php _e('Code Button','WP-Code-Highlight'); ?>
-		</th>
-		<td>
-			<label>
-				<input name="wp_code_highlight_button" type="radio" value="enable"<?php if (get_option('wp_code_highlight_button') == 'enable') { ?> checked="checked"<?php } ?> />
-				<?php _e('enable','WP-Code-Highlight'); ?>
-			</label>
-			<label>
-				<input name="wp_code_highlight_button" type="radio" value="disable"<?php if (get_option('wp_code_highlight_button') == 'disable') { ?> checked="checked"<?php } ?> />
-				<?php _e('disable','WP-Code-Highlight'); ?>
-			</label>
-		</td>
-	</tr>
-	<tr valign="top">
-		<th scope="row">
-			<?php _e('Highlight Themes','WP-Code-Highlight'); ?>
-		</th>
-		<td>
-			<label>
-				<input name="wp_code_highlight_themes" type="radio" value="wp-code-highlight"<?php if (get_option('wp_code_highlight_themes') == 'wp-code-highlight') { ?> checked="checked"<?php } ?> />
-				wp-code-highlight
-			</label>
-			<label>
-				<input name="wp_code_highlight_themes" type="radio" value="desert"<?php if (get_option('wp_code_highlight_themes') == 'desert') { ?> checked="checked"<?php } ?> />
-				desert
-			</label>
-			<label>
-				<input name="wp_code_highlight_themes" type="radio" value="sunburst"<?php if (get_option('wp_code_highlight_themes') == 'sunburst') { ?> checked="checked"<?php } ?> />
-				sunburst
-			</label>
-			<label>
-				<input name="wp_code_highlight_themes" type="radio" value="sons-of-obsidian"<?php if (get_option('wp_code_highlight_themes') == 'sons-of-obsidian') { ?> checked="checked"<?php } ?> />
-				sons-of-obsidian
-			</label>
-			<label>
-				<input name="wp_code_highlight_themes" type="radio" value="random"<?php if (get_option('wp_code_highlight_themes') == 'random') { ?> checked="checked"<?php } ?> />
-				random
-			</label>
-		</td>
-	</tr>
-	<tr valign="top">
-		<th scope="row">
-			<?php _e('Line Numbers','WP-Code-Highlight'); ?>
-		</th>
-		<td>
-			<label>
-				<input name="wp_code_highlight_line_numbers" type="radio" value="enable"<?php if (get_option('wp_code_highlight_line_numbers') == 'enable') { ?> checked="checked"<?php } ?> />
-				<?php _e('enable','WP-Code-Highlight'); ?>
-			</label>
-			<label>
-				<input name="wp_code_highlight_line_numbers" type="radio" value="disable"<?php if (get_option('wp_code_highlight_line_numbers') == 'disable') { ?> checked="checked"<?php } ?> />
-				<?php _e('disable','WP-Code-Highlight'); ?>
-				&nbsp;&nbsp;<code>Notice: Be careful to enable Line Numbers, you may need to adjust your wordpress theme style.</code>
-			</label>
-		</td>
-	</tr>
-	<tr valign="top">
-		<th scope="row">
-			<?php _e('Delete Options','WP-Code-Highlight'); ?>
-		</th>
-		<td>
-			<label>
-				<input type="checkbox" name="wp_code_highlight_deactivate" value="yes" <?php if(get_option("wp_code_highlight_deactivate")=='yes') echo 'checked="checked"'; ?> />
-				<?php _e('Delete options while deactivate this plugin.','WP-Code-Highlight'); ?>
-			</label>
-		</td>
-	</tr>
+    <tr valign="top">
+        <th scope="row">
+            <?php _e('Code Button','WP-Code-Highlight'); ?>
+        </th>
+        <td>
+            <label>
+                <input name="wp_code_highlight_button" type="radio" value="enable"<?php if (get_option('wp_code_highlight_button') == 'enable') { ?> checked="checked"<?php } ?> />
+                <?php _e('enable','WP-Code-Highlight'); ?>
+            </label>
+            <label>
+                <input name="wp_code_highlight_button" type="radio" value="disable"<?php if (get_option('wp_code_highlight_button') == 'disable') { ?> checked="checked"<?php } ?> />
+                <?php _e('disable','WP-Code-Highlight'); ?>
+            </label>
+        </td>
+    </tr>
+    <tr valign="top">
+        <th scope="row">
+            <?php _e('Highlight Themes','WP-Code-Highlight'); ?>
+        </th>
+        <td>
+            <label>
+                <input name="wp_code_highlight_themes" type="radio" value="wp-code-highlight"<?php if (get_option('wp_code_highlight_themes') == 'wp-code-highlight') { ?> checked="checked"<?php } ?> />
+                wp-code-highlight
+            </label>
+            <label>
+                <input name="wp_code_highlight_themes" type="radio" value="desert"<?php if (get_option('wp_code_highlight_themes') == 'desert') { ?> checked="checked"<?php } ?> />
+                desert
+            </label>
+            <label>
+                <input name="wp_code_highlight_themes" type="radio" value="sunburst"<?php if (get_option('wp_code_highlight_themes') == 'sunburst') { ?> checked="checked"<?php } ?> />
+                sunburst
+            </label>
+            <label>
+                <input name="wp_code_highlight_themes" type="radio" value="sons-of-obsidian"<?php if (get_option('wp_code_highlight_themes') == 'sons-of-obsidian') { ?> checked="checked"<?php } ?> />
+                sons-of-obsidian
+            </label>
+            <label>
+                <input name="wp_code_highlight_themes" type="radio" value="random"<?php if (get_option('wp_code_highlight_themes') == 'random') { ?> checked="checked"<?php } ?> />
+                random
+            </label>
+        </td>
+    </tr>
+    <tr valign="top">
+        <th scope="row">
+            <?php _e('Line Numbers','WP-Code-Highlight'); ?>
+        </th>
+        <td>
+            <label>
+                <input name="wp_code_highlight_line_numbers" type="radio" value="enable"<?php if (get_option('wp_code_highlight_line_numbers') == 'enable') { ?> checked="checked"<?php } ?> />
+                <?php _e('enable','WP-Code-Highlight'); ?>
+            </label>
+            <label>
+                <input name="wp_code_highlight_line_numbers" type="radio" value="disable"<?php if (get_option('wp_code_highlight_line_numbers') == 'disable') { ?> checked="checked"<?php } ?> />
+                <?php _e('disable','WP-Code-Highlight'); ?>
+                &nbsp;&nbsp;<code>Notice: Be careful to enable Line Numbers, you may need to adjust your wordpress theme style.</code>
+            </label>
+        </td>
+    </tr>
+    <tr valign="top">
+        <th scope="row">
+            <?php _e('Delete Options','WP-Code-Highlight'); ?>
+        </th>
+        <td>
+            <label>
+                <input type="checkbox" name="wp_code_highlight_deactivate" value="yes" <?php if(get_option("wp_code_highlight_deactivate")=='yes') echo 'checked="checked"'; ?> />
+                <?php _e('Delete options while deactivate this plugin.','WP-Code-Highlight'); ?>
+            </label>
+        </td>
+    </tr>
 </table>
 
 <input type="hidden" name="action" value="update" />
