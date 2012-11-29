@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Code-Highlight Languages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-27 12:31+0800\n"
+"PO-Revision-Date: 2012-11-27 12:32+0800\n"
+"Last-Translator: 夜光 <berttung(#)gmail.com>\n"
+"Language-Team: 玻璃泉BoLiQuan.COM <berttung(#)gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: F:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\wp-code-highlight\n"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp-code-highlight.php:130
+msgid "Settings"
+msgstr "设置"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:18
+msgid "Code Button"
+msgstr "代码按钮"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:23
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:65
+msgid "enable"
+msgstr "开启"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:27
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:69
+msgid "disable"
+msgstr "关闭"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:33
+msgid "Highlight Themes"
+msgstr "高亮主题"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:60
+msgid "Line Numbers"
+msgstr "代码行号"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:76
+msgid "Delete Options"
+msgstr "删除设置"
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:81
+msgid "Delete options while deactivate this plugin."
+msgstr "卸载此插件时自动删除设置选项."
+
+#: F:\xampp\htdocs\wordpress\wp-content\plugins\wp-code-highlight/wp_code_highlight_admin.php:91
+msgid "Save Changes"
+msgstr "保存更改"
+
