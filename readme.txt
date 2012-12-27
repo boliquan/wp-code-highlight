@@ -4,10 +4,11 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SKA6T
 Tags: wp code highlight,wordpress code highlight,wp code,code highlight,sourcecode,wp prettify,wp code prettify,syntax,javascript,highlight,code,formatting,google code prettify,code button,quicktags,html,xhtml,css,syntax highlighter,google syntax highlighter,code highlighter,code snippet,code box,cool code,codecolorer,source,articles,post,comment,sniplets
 License: GPLv2
 Requires at least: 2.7
-Tested up to: 3.4.2
-Stable tag: 1.2.6
+Tested up to: 3.5
+Stable tag: 1.2.7
 
 WP Code Highlight provides clean syntax highlighting and it also provides a code button.
+
 
 == Description ==
 
@@ -35,7 +36,8 @@ For more information of this plugin, please visit: [Plugin Homepage](http://boli
 
 Related Links:
 
-* <a href="http://boliquan.com/wp-code-highlight/">WP Code Highlight</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/">Download</a>
+* <a href="http://boliquan.com/wp-code-highlight/">WP Code Highlight (FAQ)</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/">Download</a>
+* <a href="http://boliquan.com/wp-clean-up/">WP Clean Up</a> | <a href="http://wordpress.org/extend/plugins/wp-clean-up/">Download</a>
 * <a href="http://boliquan.com/wp-smtp/">WP SMTP</a> | <a href="http://wordpress.org/extend/plugins/wp-smtp/">Download</a>
 * <a href="http://boliquan.com/wp-slug-translate/">WP Slug Translate</a> | <a href="http://wordpress.org/extend/plugins/wp-slug-translate/">Download</a>
 * <a href="http://boliquan.com/wp-anti-spam/">WP Anti Spam</a> | <a href="http://wordpress.org/extend/plugins/wp-anti-spam/">Download</a>
@@ -57,6 +59,10 @@ Related Links:
 
 
 == Changelog ==
+
+= 1.2.7 =
+
+* Some optimization
 
 = 1.2.6 =
 

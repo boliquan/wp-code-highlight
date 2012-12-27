@@ -98,7 +98,7 @@ function wp_code_highlight_options(){
 2. "Dashboard"->"Settings"->"WP Code Highlight"<br />
 3. Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> (It provides a code button in the HTML editor)<br />
 4. You don't need to specify the language since WP Code Highlight will guess, all languages are supported<br />
-5. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://boliquan.com/wp-code-highlight/" title="WP Code Highlight" target="_blank">FAQ</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
+5. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://boliquan.com/wp-code-highlight/" title="WP Code Highlight" target="_blank">FAQ</a> | <a href="http://boliquan.com/wp-code-highlight/" target="_blank">Submit Translations</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
 
 <h3>Example</h3>
 <code>&lt;pre&gt;</code><br />
@@ -108,10 +108,11 @@ function wp_code_highlight_options(){
 <code>&lt;/pre&gt;</code>
 
 <h3>Other Plugins</h3>
-1. <a href="http://boliquan.com/wp-smtp/" target="_blank">WP SMTP</a> | <a href="http://wordpress.org/extend/plugins/wp-smtp/" target="_blank">Download</a><br />
-2. <a href="http://boliquan.com/wp-slug-translate/" target="_blank">WP Slug Translate</a> | <a href="http://wordpress.org/extend/plugins/wp-slug-translate/" target="_blank">Download</a><br />
-3. <a href="http://boliquan.com/wp-anti-spam/" target="_blank">WP Anti Spam</a> | <a href="http://wordpress.org/extend/plugins/wp-anti-spam/" target="_blank">Download</a><br />
-4. <a href="http://boliquan.com/yg-share/" target="_blank">YG Share</a> | <a href="http://wordpress.org/extend/plugins/yg-share/" target="_blank">Download</a>
+1. <a href="http://boliquan.com/wp-clean-up/" target="_blank">WP Clean Up</a> | <a href="http://wordpress.org/extend/plugins/wp-clean-up/" target="_blank">Download</a><br />
+2. <a href="http://boliquan.com/wp-smtp/" target="_blank">WP SMTP</a> | <a href="http://wordpress.org/extend/plugins/wp-smtp/" target="_blank">Download</a><br />
+3. <a href="http://boliquan.com/wp-slug-translate/" target="_blank">WP Slug Translate</a> | <a href="http://wordpress.org/extend/plugins/wp-slug-translate/" target="_blank">Download</a><br />
+4. <a href="http://boliquan.com/wp-anti-spam/" target="_blank">WP Anti Spam</a> | <a href="http://wordpress.org/extend/plugins/wp-anti-spam/" target="_blank">Download</a><br />
+5. <a href="http://boliquan.com/yg-share/" target="_blank">YG Share</a> | <a href="http://wordpress.org/extend/plugins/yg-share/" target="_blank">Download</a>
 
 <br /><br />
 <?php $donate_url = plugins_url('/img/paypal_32_32.jpg', __FILE__);?>
