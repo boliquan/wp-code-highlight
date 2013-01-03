@@ -5,7 +5,7 @@ Tags: wp code highlight,wordpress code highlight,wp code,code highlight,sourceco
 License: GPLv2
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 
 WP Code Highlight provides clean syntax highlighting and it also provides a code button.
 
@@ -59,6 +59,11 @@ Related Links:
 
 
 == Changelog ==
+
+= 1.2.8 =
+
+* Updated newline handling to handle fixes to IE 10
+* Remove unused js files
 
 = 1.2.7 =
 

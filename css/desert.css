@@ -28,7 +28,7 @@ pre .dec{color:#98fb98;} /* decimal         - lightgreen */
 }
 pre{ 
 	display:block;background-color:#333;
-	font-size:12.3px;line-height:16px;margin:6px 0px;padding:2px 7px;overflow:auto;width:98%;
+	font-size:12px;line-height:16px;margin:6px 0px;padding:2px 7px;overflow:auto;width:98%;
 }
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums li:before{content:none;}

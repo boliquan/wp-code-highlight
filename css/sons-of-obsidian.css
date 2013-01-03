@@ -27,7 +27,7 @@
 }
 pre.prettyprint{
     border:0px solid #888;background:#000;
-	font-size:12.3px;line-height:16px;margin:6px 0px;padding:2px 7px;overflow:auto;width:98%;
+	font-size:12px;line-height:16px;margin:6px 0px;padding:2px 7px;overflow:auto;width:98%;
 }
 ol.linenums li:before{content:none;}
 ol.linenums{margin:0;padding-left:26px;}

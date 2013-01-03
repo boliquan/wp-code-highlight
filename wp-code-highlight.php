@@ -3,7 +3,7 @@
 Plugin Name: WP Code Highlight
 Plugin URI: http://boliquan.com/wp-code-highlight/
 Description: WP Code Highlight provides clean syntax highlighting and it also provides a code button. Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code>
-Version: 1.2.7
+Version: 1.2.8
 Author: BoLiQuan
 Author URI: http://boliquan.com/
 Text Domain: WP-Code-Highlight
@@ -132,7 +132,7 @@ function wp_code_highlight_settings_link($action_links,$plugin_file){
 	}
 	return $action_links;
 }
-add_filter('plugin_action_links','wp_code_highlight_settings_link',10,4);
+add_filter('plugin_action_links','wp_code_highlight_settings_link',10,2);
 
 if(is_admin()){require_once('wp_code_highlight_admin.php');}
 
