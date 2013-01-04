@@ -63,7 +63,8 @@ Related Links:
 = 1.2.8 =
 
 * Updated newline handling to handle fixes to IE 10
-* Remove unused js files
+* Remove unused JS files
+* Optimize CSS
 
 = 1.2.7 =
 
