@@ -18,7 +18,7 @@ It provides a code button(HTML editor) to help you insert code in articles easil
 You don't need to specify the language since WP Code Highlight will guess, all languages are supported.
 You can put line numbers in your code if you need.
 There are 4 highlight themes, you can choose from them or display by random.
-It can also load wp-code-highlight.css from current wordpress theme directory.
+It can also load `wp-code-highlight.css` from current wordpress theme directory.
 It can delete its own options, so it is also a green plugin !
 
 = Basic Usage =
@@ -29,6 +29,7 @@ It can delete its own options, so it is also a green plugin !
 4. "Dashboard"->"Settings"->"WP Code Highlight"
 5. Wrap code blocks with `<pre>` and `</pre>` (It provides a code button in the HTML editor)
 6. You don't need to specify the language since WP Code Highlight will guess, all languages are supported
+7. It can also load `wp-code-highlight.css` from current wordpress theme directory
 
 = More Information =
 
@@ -56,6 +57,7 @@ Related Links:
 4. "Dashboard"->"Settings"->"WP Code Highlight"
 5. Wrap code blocks with `<pre>` and `</pre>` (It provides a code button in the HTML editor)
 6. You don't need to specify the language since WP Code Highlight will guess, all languages are supported
+7. It can also load `wp-code-highlight.css` from current wordpress theme directory
 
 
 == Changelog ==

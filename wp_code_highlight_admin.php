@@ -98,7 +98,8 @@ function wp_code_highlight_options(){
 2. "Dashboard"->"Settings"->"WP Code Highlight"<br />
 3. Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> (It provides a code button in the HTML editor)<br />
 4. You don't need to specify the language since WP Code Highlight will guess, all languages are supported<br />
-5. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://boliquan.com/wp-code-highlight/" title="WP Code Highlight" target="_blank">FAQ</a> | <a href="http://boliquan.com/wp-code-highlight/" target="_blank">Submit Translations</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
+5. It can also load <code>wp-code-highlight.css</code> from current wordpress theme directory<br />
+6. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://boliquan.com/wp-code-highlight/" title="WP Code Highlight" target="_blank">FAQ</a> | <a href="http://boliquan.com/wp-code-highlight/" target="_blank">Submit Translations</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
 
 <h3>Example</h3>
 <code>&lt;pre&gt;</code><br />
