@@ -22,13 +22,14 @@ add_filter('init','load_wp_code_highlight_lang');
 function wp_code_highlight_style(){
 	$wp_code_highlight_themes=get_option('wp_code_highlight_themes');
 	if($wp_code_highlight_themes=='random'){
-		srand((float) microtime() *10000000);
-		$theme_style[1]='wp-code-highlight';
-		$theme_style[2]='desert';
-		$theme_style[3]='sunburst';
-		$theme_style[4]='sons-of-obsidian';
-		$rand_theme=array_rand($theme_style);
-		$wp_code_highlight_themes=$theme_style[$rand_theme];
+		$theme_styles = array(
+				'wp-code-highlight',
+				'desert',
+				'sunburst',
+				'sons-of-obsidian'
+		);
+		$rand_style=array_rand($theme_styles);
+		$wp_code_highlight_themes=$theme_styles[$rand_style];
 	}
 	$wp_code_highlight_css_url = plugins_url('/css/' . $wp_code_highlight_themes . '.css', __FILE__);
 	if(file_exists(TEMPLATEPATH . "/wp-code-highlight.css")){
