@@ -67,6 +67,7 @@ Related Links:
 * Updated newline handling to handle fixes to IE 10
 * Remove unused JS files
 * Optimize CSS
+* Register Setting
 
 = 1.2.7 =
 

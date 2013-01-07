@@ -1,6 +1,13 @@
 <?php
 function wp_code_highlight_admin() {
 	add_options_page('WP Code Highlight Options', 'WP Code Highlight','manage_options', __FILE__, 'wp_code_highlight_options');
+	add_action('admin_init','wp_code_highlight_register');
+}
+function wp_code_highlight_register(){
+	register_setting('wch-settings','wp_code_highlight_button');
+	register_setting('wch-settings','wp_code_highlight_themes');
+	register_setting('wch-settings','wp_code_highlight_line_numbers');
+	register_setting('wch-settings','wp_code_highlight_deactivate');
 }
 function wp_code_highlight_options(){
 ?>
@@ -10,7 +17,7 @@ function wp_code_highlight_options(){
 <h2>WP Code Highlight</h2>
 
 <form action="options.php" method="post" enctype="multipart/form-data" name="wp_code_highlight_form">
-<?php wp_nonce_field('update-options'); ?>
+<?php settings_fields('wch-settings'); ?>
 
 <table class="form-table">
 	<tr valign="top">
@@ -83,9 +90,6 @@ function wp_code_highlight_options(){
 		</td>
 	</tr>
 </table>
-
-<input type="hidden" name="action" value="update" />
-<input type="hidden" name="page_options" value="wp_code_highlight_button,wp_code_highlight_themes,wp_code_highlight_line_numbers,wp_code_highlight_deactivate" />
 
 <p class="submit">
 <input type="submit" class="button-primary" name="Submit" value="<?php _e('Save Changes'); ?>" />
