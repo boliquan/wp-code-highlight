@@ -13,21 +13,10 @@ pre .tag{color:#8AC763;}
 pre .atn{color:#E0E2E4;}
 pre .atv{color:#EC7600;}
 pre .dec{color:#800080;}
-@media print{
-	pre .str{color:#060;}
-	pre .kwd{color:#006;font-weight:bold;}
-	pre .com{color:#600;font-style:italic;}
-	pre .typ{color:#404;font-weight:bold;}
-	pre .lit{color:#044;}
-	pre .pun{color:#440;}
-	pre .pln{color:#000;}
-	pre .tag{color:#006;font-weight:bold;}
-	pre .atn{color:#404;}
-	pre .atv{color:#060;}
-}
+
 pre.prettyprint{
 	border:0px solid #888;background:#000;
-	font-size:12px;line-height:16px;margin:6px 0px;padding:2px 7px;overflow:auto;width:98%;
+	font-size:12px;line-height:16px;margin:6px 0px;padding:2px 7px;word-wrap:normal;overflow:auto;width:98%;
 }
 ol.linenums li{line-height:16px;margin:0px;padding:0px;list-style:none;}
 ol.linenums li:before,ol.linenums li:after{content:none;}

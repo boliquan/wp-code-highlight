@@ -5,38 +5,24 @@
 * @plugin url http://boliquan.com/wp-code-highlight/
 */
 pre .pln{color:#000;}
-@media screen{
-	pre .str{color:#080;}
-	pre .kwd{color:#008;}
-	pre .com{color:#800;}
-	pre .typ{color:#606;}
-	pre .lit{color:#066;}
-	pre .pun,
-	pre .opn,
-	pre .clo{color:#660;}
-	pre .tag{color:#008;}
-	pre .atn{color:#606;}
-	pre .atv{color:#080;}
-	pre .dec,
-	pre .var{color:#606;}
-	pre .fun{color:#F00;}
-}
-@media print,projection{
-	pre .str{color:#060;}
-	pre .kwd{color:#006;font-weight:bold;}
-	pre .com{color:#600;font-style:italic;}
-	pre .typ{color:#404;font-weight:bold;}
-	pre .lit{color:#044;}
-	pre .pun,
-	pre .opn,
-	pre .clo{color:#440;}
-	pre .tag{color:#006;font-weight:bold;}
-	pre .atn{color:#404;}
-	pre .atv{color:#060;}
-}
+pre .str{color:#080;}
+pre .kwd{color:#008;}
+pre .com{color:#800;}
+pre .typ{color:#606;}
+pre .lit{color:#066;}
+pre .pun,
+pre .opn,
+pre .clo{color:#660;}
+pre .tag{color:#008;}
+pre .atn{color:#606;}
+pre .atv{color:#080;}
+pre .dec,
+pre .var{color:#606;}
+pre .fun{color:#F00;}
+
 pre.prettyprint{
 	border:1px solid #ccc;
-	font-size:12px;line-height:16px;margin:6px 0px;padding:2px 7px;overflow:auto;width:98%;
+	font-size:12px;line-height:16px;margin:6px 0px;padding:2px 7px;word-wrap:normal;overflow:auto;width:98%;
 }
 ol.linenums li{line-height:16px;margin:0px;padding:0px;list-style:none;}
 ol.linenums li:before,ol.linenums li:after{content:none;}
