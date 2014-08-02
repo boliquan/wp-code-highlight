@@ -1,11 +1,11 @@
 === WP Code Highlight ===
 Contributors: boliquan
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SKA6TPPWSATKG&item_name=BoLiQuan&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=CA&bn=PP%2dDonationsBF&charset=UTF%2d8
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SCWY6NPFRR8EY
 Tags: wp code highlight,wordpress code highlight,wp code,code highlight,sourcecode,wp prettify,wp code prettify,syntax,javascript,highlight,code,formatting,google code prettify,code button,quicktags,html,xhtml,css,syntax highlighter,google syntax highlighter,code highlighter,code snippet,code box,cool code,codecolorer,source,articles,post,comment,sniplets
 License: GPLv2
 Requires at least: 2.7
-Tested up to: 3.5
-Stable tag: 1.2.8
+Tested up to: 3.9.1
+Stable tag: 1.2.9
 
 WP Code Highlight provides clean syntax highlighting and it also provides a code button.
 
@@ -37,12 +37,12 @@ For more information of this plugin, please visit: [Plugin Homepage](http://boli
 
 Related Links:
 
-* <a href="http://boliquan.com/wp-code-highlight/">WP Code Highlight (FAQ)</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/">Download</a>
-* <a href="http://boliquan.com/wp-clean-up/">WP Clean Up</a> | <a href="http://wordpress.org/extend/plugins/wp-clean-up/">Download</a>
-* <a href="http://boliquan.com/wp-smtp/">WP SMTP</a> | <a href="http://wordpress.org/extend/plugins/wp-smtp/">Download</a>
-* <a href="http://boliquan.com/wp-slug-translate/">WP Slug Translate</a> | <a href="http://wordpress.org/extend/plugins/wp-slug-translate/">Download</a>
-* <a href="http://boliquan.com/wp-anti-spam/">WP Anti Spam</a> | <a href="http://wordpress.org/extend/plugins/wp-anti-spam/">Download</a>
-* <a href="http://boliquan.com/yg-share/">YG Share</a> | <a href="http://wordpress.org/extend/plugins/yg-share/">Download</a>
+* <a href="http://boliquan.com/wp-code-highlight/">WP Code Highlight (FAQ)</a> | <a href="http://wordpress.org/plugins/wp-code-highlight/">Download</a>
+* <a href="http://boliquan.com/wp-clean-up/">WP Clean Up</a> | <a href="http://wordpress.org/plugins/wp-clean-up/">Download</a>
+* <a href="http://boliquan.com/wp-smtp/">WP SMTP</a> | <a href="http://wordpress.org/plugins/wp-smtp/">Download</a>
+* <a href="http://boliquan.com/wp-slug-translate/">WP Slug Translate</a> | <a href="http://wordpress.org/plugins/wp-slug-translate/">Download</a>
+* <a href="http://boliquan.com/wp-anti-spam/">WP Anti Spam</a> | <a href="http://wordpress.org/plugins/wp-anti-spam/">Download</a>
+* <a href="http://boliquan.com/yg-share/">YG Share</a> | <a href="http://wordpress.org/plugins/yg-share/">Download</a>
 * <a href="http://boliquan.com/">BoLiQuan</a>
 * <a href="http://boliquan.com/">玻璃泉</a>
 * <a href="http://boliquan.com/">夜光</a>
@@ -61,6 +61,10 @@ Related Links:
 
 
 == Changelog ==
+
+= 1.2.9 =
+
+* Some optimization
 
 = 1.2.8 =
 

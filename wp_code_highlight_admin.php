@@ -103,7 +103,7 @@ function wp_code_highlight_options(){
 3. Wrap code blocks with <code>&lt;pre&gt;</code> and <code>&lt;/pre&gt;</code> (It provides a code button in the HTML editor)<br />
 4. You don't need to specify the language since WP Code Highlight will guess, all languages are supported<br />
 5. It can also load <code>wp-code-highlight.css</code> from current wordpress theme directory<br />
-6. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://boliquan.com/wp-code-highlight/" title="WP Code Highlight" target="_blank">FAQ</a> | <a href="http://boliquan.com/wp-code-highlight/" target="_blank">Submit Translations</a> | <a href="http://wordpress.org/extend/plugins/wp-code-highlight/" target="_blank">Download</a>
+6. For more information, please visit: <a href="http://boliquan.com/wp-code-highlight/" target="_blank">WP Code Highlight</a> | <a href="http://boliquan.com/wp-code-highlight/" title="WP Code Highlight" target="_blank">FAQ</a> | <a href="http://boliquan.com/wp-code-highlight/" target="_blank">Submit Translations</a> | <a href="http://wordpress.org/plugins/wp-code-highlight/" target="_blank">Download</a>
 
 <h3>Example</h3>
 <code>&lt;pre&gt;</code><br />
@@ -113,29 +113,29 @@ function wp_code_highlight_options(){
 <code>&lt;/pre&gt;</code>
 
 <h3>Other Plugins</h3>
-1. <a href="http://boliquan.com/wp-clean-up/" target="_blank">WP Clean Up</a> | <a href="http://wordpress.org/extend/plugins/wp-clean-up/" target="_blank">Download</a><br />
-2. <a href="http://boliquan.com/wp-smtp/" target="_blank">WP SMTP</a> | <a href="http://wordpress.org/extend/plugins/wp-smtp/" target="_blank">Download</a><br />
-3. <a href="http://boliquan.com/wp-slug-translate/" target="_blank">WP Slug Translate</a> | <a href="http://wordpress.org/extend/plugins/wp-slug-translate/" target="_blank">Download</a><br />
-4. <a href="http://boliquan.com/wp-anti-spam/" target="_blank">WP Anti Spam</a> | <a href="http://wordpress.org/extend/plugins/wp-anti-spam/" target="_blank">Download</a><br />
-5. <a href="http://boliquan.com/yg-share/" target="_blank">YG Share</a> | <a href="http://wordpress.org/extend/plugins/yg-share/" target="_blank">Download</a>
+1. <a href="http://boliquan.com/wp-clean-up/" target="_blank">WP Clean Up</a> | <a href="http://wordpress.org/plugins/wp-clean-up/" target="_blank">Download</a><br />
+2. <a href="http://boliquan.com/wp-smtp/" target="_blank">WP SMTP</a> | <a href="http://wordpress.org/plugins/wp-smtp/" target="_blank">Download</a><br />
+3. <a href="http://boliquan.com/wp-slug-translate/" target="_blank">WP Slug Translate</a> | <a href="http://wordpress.org/plugins/wp-slug-translate/" target="_blank">Download</a><br />
+4. <a href="http://boliquan.com/wp-anti-spam/" target="_blank">WP Anti Spam</a> | <a href="http://wordpress.org/plugins/wp-anti-spam/" target="_blank">Download</a><br />
+5. <a href="http://boliquan.com/yg-share/" target="_blank">YG Share</a> | <a href="http://wordpress.org/plugins/yg-share/" target="_blank">Download</a>
 
 <br /><br />
 <?php $donate_url = plugins_url('/img/paypal_32_32.jpg', __FILE__);?>
-<?php $paypal_donate_url = plugins_url('/img/btn_donateCC_LG.gif', __FILE__);?>
-<?php $ali_donate_url = plugins_url('/img/alipay_donate.png', __FILE__);?>
+<?php $paypal_donate_url = plugins_url('/img/paypal_donate_email.jpg', __FILE__);?>
+<?php $ali_donate_url = plugins_url('/img/alipay_donate_email.jpg', __FILE__);?>
 <div class="icon32"><img src="<?php echo $donate_url; ?>" alt="Donate" /></div>
 <h2>Donate</h2>
 <p>
 If you find my work useful and you want to encourage the development of more free resources, you can do it by donating.
 </p>
 <p>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SKA6TPPWSATKG&item_name=BoLiQuan&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=CA&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank"><img src="<?php echo $paypal_donate_url; ?>" alt="Paypal Donate" title="Paypal" /></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SCWY6NPFRR8EY" target="_blank"><img src="<?php echo $paypal_donate_url; ?>" alt="Paypal Donate" title="Paypal" /></a>
 &nbsp;
-<a href="https://me.alipay.com/boliquan" target="_blank"><img src="<?php echo $ali_donate_url; ?>" alt="Alipay Donate" title="Alipay" /></a>
+<a href="https://www.alipay.com/" target="_blank"><img src="<?php echo $ali_donate_url; ?>" alt="Alipay Donate" title="Alipay" /></a>
 </p>
 <br />
 
-<div style="text-align:center; margin:60px 0 10px 0;">&copy; <?php echo date("Y"); ?> BoLiQuan</div>
+<div style="text-align:center; margin:60px 0 10px 0;">&copy; <?php echo date("Y"); ?> BoLiQuan.COM</div>
 
 </div>
 <?php 
