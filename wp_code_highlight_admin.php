@@ -45,6 +45,10 @@ function wp_code_highlight_options(){
 				wp-code-highlight
 			</label>
 			<label>
+				<input name="wp_code_highlight_themes" type="radio" value="dawn"<?php if (get_option('wp_code_highlight_themes') == 'dawn') { ?> checked="checked"<?php } ?> />
+				dawn
+			</label>
+			<label>
 				<input name="wp_code_highlight_themes" type="radio" value="desert"<?php if (get_option('wp_code_highlight_themes') == 'desert') { ?> checked="checked"<?php } ?> />
 				desert
 			</label>

@@ -24,6 +24,7 @@ function wp_code_highlight_style(){
 	if($wp_code_highlight_themes=='random'){
 		$theme_styles = array(
 				'wp-code-highlight',
+				'dawn',
 				'desert',
 				'sunburst',
 				'sons-of-obsidian'
